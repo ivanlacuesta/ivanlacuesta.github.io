@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Experience | Kinetic Professional</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-variant": "#e5e2e1",
+                        "secondary-fixed": "#ebdcff",
+                        "on-background": "#1c1b1b",
+                        "accent-yellow": "#FFC800",
+                        "on-primary-fixed": "#190064",
+                        "electric-purple": "#8B3DFF",
+                        "surface-container-highest": "#e5e2e1",
+                        "surface": "#fcf9f8",
+                        "secondary-fixed-dim": "#d4bbff",
+                        "outline": "#787585",
+                        "on-tertiary": "#ffffff",
+                        "on-surface-variant": "#474553",
+                        "primary-fixed": "#e5deff",
+                        "primary-fixed-dim": "#c8bfff",
+                        "surface-container-high": "#ebe7e7",
+                        "on-error": "#ffffff",
+                        "primary": "#361D9D",
+                        "on-secondary-fixed": "#270058",
+                        "background": "#f8f7ff",
+                        "inverse-on-surface": "#f3f0ef",
+                        "on-surface": "#1c1b1b",
+                        "error-container": "#ffdad6",
+                        "inverse-primary": "#c8bfff",
+                        "tertiary-fixed-dim": "#f4bf00",
+                        "on-primary": "#ffffff",
+                        "inverse-surface": "#313030",
+                        "on-secondary-fixed-variant": "#5d00c2",
+                        "outline-variant": "#c9c4d5",
+                        "error": "#ba1a1a",
+                        "secondary": "#710fe5",
+                        "tertiary-container": "#d3a500",
+                        "tertiary-fixed": "#ffdf92",
+                        "surface-tint": "#5c4bc4",
+                        "primary-container": "#361d9d",
+                        "surface-dim": "#dcd9d9",
+                        "surface-white": "#FFFFFF",
+                        "surface-container-low": "#f6f3f2",
+                        "on-secondary-container": "#faf1ff",
+                        "secondary-container": "#8b3dff",
+                        "on-tertiary-fixed-variant": "#594400",
+                        "on-tertiary-container": "#503d00",
+                        "surface-bright": "#fcf9f8",
+                        "on-primary-fixed-variant": "#4430ab",
+                        "on-error-container": "#93000a",
+                        "surface-container-lowest": "#ffffff",
+                        "tertiary": "#755b00",
+                        "on-primary-container": "#a295ff",
+                        "on-tertiary-fixed": "#241a00",
+                        "surface-container": "#f0edec",
+                        "surface-soft": "#F7F8FA",
+                        "on-secondary": "#ffffff",
+                        "deep-indigo": "#361D9D"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "container-max": "1200px",
+                        "gutter": "24px",
+                        "section-gap": "120px",
+                        "margin-mobile": "20px",
+                        "element-gap": "32px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Hanken Grotesk"],
+                        "headline-md": ["Hanken Grotesk"],
+                        "label-md": ["JetBrains Mono"],
+                        "headline-lg": ["Hanken Grotesk"],
+                        "button": ["Hanken Grotesk"],
+                        "display-lg": ["Hanken Grotesk"],
+                        "body-md": ["Inter"],
+                        "body-lg": ["Inter"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "headline-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "button": ["16px", {"lineHeight": "24px", "fontWeight": "600"}],
+                        "display-lg": ["72px", {"lineHeight": "80px", "letterSpacing": "-0.04em", "fontWeight": "800"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .timeline-line {
+            background: linear-gradient(to bottom, transparent, #361D9D, #710fe5, #361D9D, transparent);
+        }
+        .experience-card {
+            box-shadow: 0px 10px 30px rgba(54, 29, 157, 0.05);
+            transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+        }
+        .experience-card:hover {
+            transform: translateY(-8px) scale(1.01);
+            box-shadow: 0px 20px 45px rgba(54, 29, 157, 0.12);
+        }
+        .gradient-card-1 {
+            background: linear-gradient(135deg, #ffffff 0%, #f3f0ff 100%);
+        }
+        .gradient-card-2 {
+            background: linear-gradient(135deg, #ffffff 0%, #fff9e6 100%);
+        }
+        .gradient-card-3 {
+            background: linear-gradient(135deg, #ffffff 0%, #eefdf5 100%);
+        }
+        .profile-ring {
+            background: conic-gradient(from 0deg, #361D9D, #710fe5, #FFC800, #361D9D);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md overflow-x-hidden">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-primary/5">
+<div class="flex justify-between items-center px-margin-mobile md:px-gutter py-4 max-w-container-max mx-auto">
+<div class="font-headline-md text-headline-md font-bold text-primary tracking-tight">Kinetic Professional</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-button text-button text-primary border-b-2 border-primary pb-1" href="#">Experience</a>
+<a class="font-button text-button text-on-surface-variant hover:text-primary transition-colors" href="#">Education</a>
+<a class="font-button text-button text-on-surface-variant hover:text-primary transition-colors" href="#">Skills</a>
+<a class="font-button text-button text-on-surface-variant hover:text-primary transition-colors" href="#">Projects</a>
+<a class="font-button text-button text-on-surface-variant hover:text-primary transition-colors" href="#">Contact</a>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2.5 rounded-lg font-button text-button hover:bg-deep-indigo shadow-lg shadow-primary/20 transition-all active:scale-95">
+            Download CV
+        </button>
+</div>
+</nav>
+<section class="pt-32 pb-8 flex flex-col items-center justify-center">
+<div class="relative p-1 profile-ring rounded-full mb-6">
+<div class="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-surface shadow-xl">
+<img alt="John Ivan Lacuesta" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAL4pXweaFsfTboDJy5m80yM6A1Kk8ZWQhgVhOHu7z_zxvuGTeXfCi8CPLF4QR6d5XOEa4pvLhcEA_u97oIkCFT4QhZP2VBXXOTNkdh08DKXfNp77gPmawb9wGA3oKEvBOEIyikBuC4cHDc7lHKJ4d7aozJ2oWanMjvGbwPymzKSjRRRXvVJLVU78yQ6JtbYLHoO4xDene1Q2oWHpB_-l-xKgsdl00PHv7IXMalgtwQLMEuiSXdJkzXc2hgfhC8fhanQxa--8FwCU4"/>
+</div>
+</div>
+<h2 class="font-headline-lg text-headline-lg md:text-display-lg font-bold text-primary text-center">John Ivan Lacuesta</h2>
+</section>
+<!-- Hero Header -->
+<header class="pb-16 px-margin-mobile md:px-gutter max-w-container-max mx-auto text-center pt-4">
+<h1 class="font-headline-lg text-headline-lg md:text-display-lg md:font-display-lg text-primary mb-4">Professional Timeline</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto leading-relaxed">
+        A journey of engineering excellence, from low-level firmware to high-impact mobile solutions.
+    </p>
+</header>
+<!-- Timeline Section -->
+<section class="pb-section-gap px-margin-mobile md:px-gutter max-w-container-max mx-auto relative">
+<!-- Vertical Center Line (Desktop) -->
+<div class="hidden md:block absolute left-1/2 top-0 bottom-0 w-1 timeline-line -translate-x-1/2 opacity-30"></div>
+<!-- Timeline Content -->
+<div class="space-y-16 md:space-y-24 relative">
+<!-- 2021 - Present -->
+<div class="flex flex-col md:flex-row items-center w-full group">
+<div class="hidden md:block w-1/2 pr-12 text-right">
+<span class="font-label-md text-label-md text-primary bg-primary-fixed px-4 py-1.5 rounded-full font-bold shadow-sm">2021 - PRESENT</span>
+</div>
+<div class="relative flex items-center justify-center z-10 my-4 md:my-0">
+<div class="w-10 h-10 rounded-full bg-primary border-4 border-surface shadow-xl group-hover:bg-electric-purple transition-all duration-300"></div>
+</div>
+<div class="w-full md:w-1/2 md:pl-12">
+<div class="experience-card gradient-card-1 p-8 rounded-2xl border border-primary/10">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">Carsales via Cloudstaff</h3>
+<p class="font-body-md text-body-md font-bold text-secondary uppercase tracking-wider text-sm">Remote iOS Engineer</p>
+</div>
+<div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
+<span class="material-symbols-outlined text-primary scale-110" data-icon="cloud">cloud</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        Working for an Australian firm as a remote worker via Cloudstaff, delivering high-performance mobile experiences for the automotive marketplace.
+                    </p>
+</div>
+</div>
+</div>
+<!-- 2019 - 2021 -->
+<div class="flex flex-col md:flex-row-reverse items-center w-full group">
+<div class="hidden md:block w-1/2 pl-12 text-left">
+<span class="font-label-md text-label-md text-tertiary bg-tertiary-fixed px-4 py-1.5 rounded-full font-bold shadow-sm">2019 - 2021</span>
+</div>
+<div class="relative flex items-center justify-center z-10 my-4 md:my-0">
+<div class="w-10 h-10 rounded-full bg-secondary border-4 border-surface shadow-xl group-hover:bg-primary transition-all duration-300"></div>
+</div>
+<div class="w-full md:w-1/2 md:pr-12">
+<div class="experience-card gradient-card-2 p-8 rounded-2xl border border-tertiary/10 text-left md:text-right">
+<div class="flex flex-row md:flex-row-reverse justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">Appetiser Apps</h3>
+<p class="font-body-md text-body-md font-bold text-tertiary uppercase tracking-wider text-sm">iOS App Dev Contractor</p>
+</div>
+<div class="w-12 h-12 bg-tertiary-fixed/40 rounded-xl flex items-center justify-center">
+<span class="material-symbols-outlined text-tertiary-container scale-110" data-icon="smartphone">smartphone</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        Melbourne, Australia (Remote). We help companies and individuals develop their mobile app ideas into reality through agile development and technical expertise.
+                    </p>
+</div>
+</div>
+</div>
+<!-- 2017 - Present (Cofounder) -->
+<div class="flex flex-col md:flex-row items-center w-full group">
+<div class="hidden md:block w-1/2 pr-12 text-right">
+<span class="font-label-md text-label-md text-primary bg-primary-fixed px-4 py-1.5 rounded-full font-bold shadow-sm">2017 - PRESENT</span>
+</div>
+<div class="relative flex items-center justify-center z-10 my-4 md:my-0">
+<div class="w-10 h-10 rounded-full bg-primary border-4 border-surface shadow-xl group-hover:bg-electric-purple transition-all duration-300"></div>
+</div>
+<div class="w-full md:w-1/2 md:pl-12">
+<div class="experience-card gradient-card-3 p-8 rounded-2xl border border-outline-variant/30">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">GeoPik Technologies</h3>
+<p class="font-body-md text-body-md font-bold text-secondary uppercase tracking-wider text-sm">Co-Founder / COO</p>
+</div>
+<div class="w-12 h-12 bg-secondary/10 rounded-xl flex items-center justify-center">
+<span class="material-symbols-outlined text-secondary scale-110" data-icon="location_on">location_on</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        Cebu, Philippines. Our goal is to make our country more location friendly by creating unique codes for each residence and business through innovative geocoding solutions.
+                    </p>
+</div>
+</div>
+</div>
+<!-- 2013 - 2019 -->
+<div class="flex flex-col md:flex-row-reverse items-center w-full group">
+<div class="hidden md:block w-1/2 pl-12 text-left">
+<span class="font-label-md text-label-md text-secondary bg-secondary-fixed px-4 py-1.5 rounded-full font-bold shadow-sm">2013 - 2019</span>
+</div>
+<div class="relative flex items-center justify-center z-10 my-4 md:my-0">
+<div class="w-10 h-10 rounded-full bg-secondary border-4 border-surface shadow-xl group-hover:bg-primary transition-all duration-300"></div>
+</div>
+<div class="w-full md:w-1/2 md:pr-12">
+<div class="experience-card gradient-card-1 p-8 rounded-2xl border border-primary/10 text-left md:text-right">
+<div class="flex flex-row md:flex-row-reverse justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">Greenwave Systems</h3>
+<p class="font-body-md text-body-md font-bold text-secondary uppercase tracking-wider text-sm">iOS App Developer</p>
+</div>
+<div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
+<span class="material-symbols-outlined text-primary scale-110" data-icon="hub">hub</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        Science Park II, Singapore. Developed AXON, a platform for Internet of Things (IoT) where our team showcased the platform's full capabilities through high-fidelity iOS integration.
+                    </p>
+</div>
+</div>
+</div>
+<!-- 2011 - 2013 -->
+<div class="flex flex-col md:flex-row items-center w-full group">
+<div class="hidden md:block w-1/2 pr-12 text-right">
+<span class="font-label-md text-label-md text-primary bg-primary-fixed px-4 py-1.5 rounded-full font-bold shadow-sm">2011 - 2013</span>
+</div>
+<div class="relative flex items-center justify-center z-10 my-4 md:my-0">
+<div class="w-10 h-10 rounded-full bg-primary border-4 border-surface shadow-xl group-hover:bg-electric-purple transition-all duration-300"></div>
+</div>
+<div class="w-full md:w-1/2 md:pl-12">
+<div class="experience-card gradient-card-2 p-8 rounded-2xl border border-outline-variant/30">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">AIA Singapore</h3>
+<p class="font-body-md text-body-md font-bold text-secondary uppercase tracking-wider text-sm">Tech Lead / iOS Dev</p>
+</div>
+<div class="w-12 h-12 bg-secondary/10 rounded-xl flex items-center justify-center">
+<span class="material-symbols-outlined text-secondary scale-110" data-icon="health_and_safety">health_and_safety</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        Tampines, Singapore. Developed iPOS, the first-of-its-kind application for Insurance Agents to create quotations, assess customers, and manage digital submissions.
+                    </p>
+</div>
+</div>
+</div>
+<!-- 2004 - 2008 -->
+<div class="flex flex-col md:flex-row-reverse items-center w-full group">
+<div class="hidden md:block w-1/2 pl-12 text-left">
+<span class="font-label-md text-label-md text-tertiary bg-tertiary-fixed px-4 py-1.5 rounded-full font-bold shadow-sm">2004 - 2008</span>
+</div>
+<div class="relative flex items-center justify-center z-10 my-4 md:my-0">
+<div class="w-10 h-10 rounded-full bg-secondary border-4 border-surface shadow-xl group-hover:bg-primary transition-all duration-300"></div>
+</div>
+<div class="w-full md:w-1/2 md:pr-12">
+<div class="experience-card gradient-card-3 p-8 rounded-2xl border border-tertiary/10 text-left md:text-right">
+<div class="flex flex-row md:flex-row-reverse justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">Lexmark R&amp;D</h3>
+<p class="font-body-md text-body-md font-bold text-tertiary uppercase tracking-wider text-sm">Firmware Engineer</p>
+</div>
+<div class="w-12 h-12 bg-tertiary-fixed/40 rounded-xl flex items-center justify-center">
+<span class="material-symbols-outlined text-tertiary-container scale-110" data-icon="memory">memory</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        Cebu, Philippines. Designed and developed laser printer firmware. Programmed chips in C for smart option trays, including 8 months of intensive training in Kentucky, USA.
+                    </p>
+</div>
+</div>
+</div>
+<!-- 2002 - 2004 -->
+<div class="flex flex-col md:flex-row items-center w-full group">
+<div class="hidden md:block w-1/2 pr-12 text-right">
+<span class="font-label-md text-label-md text-primary bg-primary-fixed px-4 py-1.5 rounded-full font-bold shadow-sm">2002 - 2004</span>
+</div>
+<div class="relative flex items-center justify-center z-10 my-4 md:my-0">
+<div class="w-10 h-10 rounded-full bg-primary border-4 border-surface shadow-xl group-hover:bg-electric-purple transition-all duration-300"></div>
+</div>
+<div class="w-full md:w-1/2 md:pl-12">
+<div class="experience-card gradient-card-1 p-8 rounded-2xl border border-outline-variant/30">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">Epson Precision</h3>
+<p class="font-body-md text-body-md font-bold text-secondary uppercase tracking-wider text-sm">Quality Assurance Engineer</p>
+</div>
+<div class="w-12 h-12 bg-secondary/10 rounded-xl flex items-center justify-center">
+<span class="material-symbols-outlined text-secondary scale-110" data-icon="verified">verified</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        Batangas, Philippines. Led 15-20 inspectors ensuring inkjet printers manufactured were inspected to the highest global quality standards.
+                    </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-primary/5 w-full py-24 border-t border-primary/10">
+<div class="flex flex-col md:flex-row justify-between items-center px-margin-mobile md:px-gutter max-w-container-max mx-auto gap-8">
+<div class="font-headline-md text-headline-md text-primary font-bold">Kinetic Professional</div>
+<div class="flex gap-8">
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary font-medium transition-colors" href="#">Email</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary font-medium transition-colors" href="#">LinkedIn</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary font-medium transition-colors" href="#">GitHub</a>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant opacity-70">
+            © 2024 Kinetic Professional. All rights reserved.
+        </p>
+</div>
+</footer>
+<script>
+    // Intersection Observer for reveal animations with a staggered effect
+    const observerOptions = {
+        threshold: 0.15,
+        rootMargin: "0px 0px -50px 0px"
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('opacity-100', 'translate-y-0');
+                entry.target.classList.remove('opacity-0', 'translate-y-12');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.experience-card').forEach((card, index) => {
+        card.classList.add('opacity-0', 'translate-y-12', 'transition-all', 'duration-1000', 'ease-out');
+        observer.observe(card);
+    });
+</script>
+</body></html>
