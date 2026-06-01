@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Experience | Kinetic Professional</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-variant": "#e5e2e1",
+                        "secondary-fixed": "#ebdcff",
+                        "on-background": "#1c1b1b",
+                        "accent-yellow": "#FFC800",
+                        "on-primary-fixed": "#190064",
+                        "electric-purple": "#8B3DFF",
+                        "surface-container-highest": "#e5e2e1",
+                        "surface": "#fcf9f8",
+                        "secondary-fixed-dim": "#d4bbff",
+                        "outline": "#787585",
+                        "on-tertiary": "#ffffff",
+                        "on-surface-variant": "#474553",
+                        "primary-fixed": "#e5deff",
+                        "primary-fixed-dim": "#c8bfff",
+                        "surface-container-high": "#ebe7e7",
+                        "on-error": "#ffffff",
+                        "primary": "#361D9D",
+                        "on-secondary-fixed": "#270058",
+                        "background": "#f8f7ff",
+                        "inverse-on-surface": "#f3f0ef",
+                        "on-surface": "#1c1b1b",
+                        "error-container": "#ffdad6",
+                        "inverse-primary": "#c8bfff",
+                        "tertiary-fixed-dim": "#f4bf00",
+                        "on-primary": "#ffffff",
+                        "inverse-surface": "#313030",
+                        "on-secondary-fixed-variant": "#5d00c2",
+                        "outline-variant": "#c9c4d5",
+                        "error": "#ba1a1a",
+                        "secondary": "#710fe5",
+                        "tertiary-container": "#d3a500",
+                        "tertiary-fixed": "#ffdf92",
+                        "surface-tint": "#5c4bc4",
+                        "primary-container": "#361d9d",
+                        "surface-dim": "#dcd9d9",
+                        "surface-white": "#FFFFFF",
+                        "surface-container-low": "#f6f3f2",
+                        "on-secondary-container": "#faf1ff",
+                        "secondary-container": "#8b3dff",
+                        "on-tertiary-fixed-variant": "#594400",
+                        "on-tertiary-container": "#503d00",
+                        "surface-bright": "#fcf9f8",
+                        "on-primary-fixed-variant": "#4430ab",
+                        "on-error-container": "#93000a",
+                        "surface-container-lowest": "#ffffff",
+                        "tertiary": "#755b00",
+                        "on-primary-container": "#a295ff",
+                        "on-tertiary-fixed": "#241a00",
+                        "surface-container": "#f0edec",
+                        "surface-soft": "#F7F8FA",
+                        "on-secondary": "#ffffff",
+                        "deep-indigo": "#361D9D"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "container-max": "1200px",
+                        "gutter": "24px",
+                        "section-gap": "120px",
+                        "margin-mobile": "20px",
+                        "element-gap": "32px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Hanken Grotesk"],
+                        "headline-md": ["Hanken Grotesk"],
+                        "label-md": ["JetBrains Mono"],
+                        "headline-lg": ["Hanken Grotesk"],
+                        "button": ["Hanken Grotesk"],
+                        "display-lg": ["Hanken Grotesk"],
+                        "body-md": ["Inter"],
+                        "body-lg": ["Inter"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "headline-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "button": ["16px", {"lineHeight": "24px", "fontWeight": "600"}],
+                        "display-lg": ["72px", {"lineHeight": "80px", "letterSpacing": "-0.04em", "fontWeight": "800"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .timeline-line {
+            background: linear-gradient(to bottom, transparent, #361D9D, #710fe5, #361D9D, transparent);
+        }
+        .experience-card {
+            box-shadow: 0px 10px 30px rgba(54, 29, 157, 0.05);
+            transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+        }
+        .experience-card:hover {
+            transform: translateY(-8px) scale(1.01);
+            box-shadow: 0px 20px 45px rgba(54, 29, 157, 0.12);
+        }
+        .gradient-card-1 {
+            background: linear-gradient(135deg, #ffffff 0%, #f3f0ff 100%);
+        }
+        .gradient-card-2 {
+            background: linear-gradient(135deg, #ffffff 0%, #fff9e6 100%);
+        }
+        .gradient-card-3 {
+            background: linear-gradient(135deg, #ffffff 0%, #eefdf5 100%);
+        }
+        .profile-ring {
+            background: conic-gradient(from 0deg, #361D9D, #710fe5, #FFC800, #361D9D);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md overflow-x-hidden">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-primary/5">
+<div class="flex justify-between items-center px-margin-mobile md:px-gutter py-4 max-w-container-max mx-auto">
+<div class="hidden md:flex items-center gap-8">
+<!-- tabs hidden temporarily
+<a class="font-button text-button text-primary border-b-2 border-primary pb-1" href="#">Experience</a>
+<a class="font-button text-button text-on-surface-variant hover:text-primary transition-colors" href="#">Education</a>
+<a class="font-button text-button text-on-surface-variant hover:text-primary transition-colors" href="#">Skills</a>
+<a class="font-button text-button text-on-surface-variant hover:text-primary transition-colors" href="#">Projects</a>
+<a class="font-button text-button text-on-surface-variant hover:text-primary transition-colors" href="#">Contact</a>
+-->
+</div>
+</div>
+</nav>
+<section class="pt-32 pb-8 flex flex-col items-center justify-center">
+<div class="relative p-1 profile-ring rounded-full mb-6">
+<div class="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-surface shadow-xl">
+<img alt="Ivan Lacuesta" class="w-full h-full object-cover" src="docs/images/profile_pic.png"/>
+</div>
+</div>
+<h2 class="font-headline-lg text-headline-lg md:text-display-lg font-bold text-primary text-center">Ivan Lacuesta</h2>
+</section>
+<!-- Hero Header -->
+<header class="pb-16 px-margin-mobile md:px-gutter max-w-container-max mx-auto text-center pt-4">
+
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto leading-relaxed">
+With experience spanning finance, retail, healthcare, social media, and IoT, I've helped startups and enterprises turn ideas into successful products through collaboration, communication, and execution.   </p>
+</header>
+<!-- Timeline Section -->
+<section class="pb-section-gap px-margin-mobile md:px-gutter max-w-container-max mx-auto relative">
+<!-- Vertical Center Line (Desktop) -->
+<div class="hidden md:block absolute left-1/2 top-0 bottom-0 w-1 timeline-line -translate-x-1/2 opacity-30"></div>
+<!-- Timeline Content -->
+<div class="space-y-16 md:space-y-24 relative">
+<!-- 2021 - Present -->
+<div class="flex flex-col md:flex-row items-center w-full group">
+<div class="hidden md:block w-1/2 pr-12 text-right">
+<span class="font-label-md text-label-md text-primary bg-primary-fixed px-4 py-1.5 rounded-full font-bold shadow-sm">2021 - PRESENT</span>
+</div>
+<div class="relative flex items-center justify-center z-10 my-4 md:my-0">
+<div class="w-10 h-10 rounded-full bg-primary border-4 border-surface shadow-xl group-hover:bg-electric-purple transition-all duration-300"></div>
+</div>
+<div class="w-full md:w-1/2 md:pl-12">
+<div class="experience-card p-8 rounded-2xl border border-primary/10" style="background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);"> 
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">Carsales via Cloudstaff</h3>
+<p class="font-body-md text-body-md font-bold text-secondary uppercase tracking-wider text-sm">Senior iOS Dev ( Remote ) </p>
+</div>
+<div class="w-[120px] h-[120px] rounded-xl overflow-hidden self-start">
+<img alt="Carsales" class="w-full h-full object-contain" src="docs/images/carsales.png"/>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Currently employed with Cloudstaff as an Senior iOS Dev supporting carsales Australia, Australia’s leading online automotive marketplace. I am part of the iOS team responsible for maintaining and developing features across the Carsales mobile ecosystem including Carsales, Boatsales, Caravans, and Trucksales. Contributing to AI-driven initiatives and leveraging AI-assisted development workflows to enhance user experience, productivity, and delivery across one of Australia’s largest e-commerce platforms for vehicle buying and selling.
+                    </p>
+</div>
+</div>
+</div>
+<!-- 2019 - 2021 -->
+<div class="flex flex-col md:flex-row-reverse items-center w-full group">
+<div class="hidden md:block w-1/2 pl-12 text-left">
+<span class="font-label-md text-label-md text-tertiary bg-tertiary-fixed px-4 py-1.5 rounded-full font-bold shadow-sm">2019 - 2021</span>
+</div>
+<div class="relative flex items-center justify-center z-10 my-4 md:my-0">
+<div class="w-10 h-10 rounded-full bg-secondary border-4 border-surface shadow-xl group-hover:bg-primary transition-all duration-300"></div>
+</div>
+<div class="w-full md:w-1/2 md:pr-12">
+<div class="experience-card p-8 rounded-2xl border border-tertiary/10 text-left md:text-right" style="background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);">
+<div class="flex flex-row md:flex-row-reverse justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">Appetiser Apps</h3>
+<p class="font-body-md text-body-md font-bold text-tertiary uppercase tracking-wider text-sm">iOS App Dev ( Remote )</p>
+</div>
+<div class="w-[120px] h-[120px] rounded-xl overflow-hidden self-start">
+<img alt="Appetiser Apps" class="w-full h-full object-contain" src="docs/images/appetiser.png"/>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+Worked with Appetiser Apps based in Melbourne, AU as an iOS Developer, building mobile applications for startups, businesses, and entrepreneurs across various industries. Collaborated with cross-functional teams and clients to transform ideas into successful mobile products, providing input on features, technical solutions, and user experience. Involved throughout the full development lifecycle, from planning and implementation to App Store release, with projects spanning healthcare, social media, and financial services.
+                    </p>
+</div>
+</div>
+</div>
+<!-- 2017 - Present (Cofounder) -->
+<div class="flex flex-col md:flex-row items-center w-full group">
+<div class="hidden md:block w-1/2 pr-12 text-right">
+<span class="font-label-md text-label-md text-primary bg-primary-fixed px-4 py-1.5 rounded-full font-bold shadow-sm">2017 - PRESENT</span>
+</div>
+<div class="relative flex items-center justify-center z-10 my-4 md:my-0">
+<div class="w-10 h-10 rounded-full bg-primary border-4 border-surface shadow-xl group-hover:bg-electric-purple transition-all duration-300"></div>
+</div>
+<div class="w-full md:w-1/2 md:pl-12">
+<div class="experience-card p-8 rounded-2xl border border-outline-variant/30" style="background: linear-gradient(135deg, #fff5f5 0%, #fee2e2 100%);">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">GeoPik Technologies</h3>
+<p class="font-body-md text-body-md font-bold text-secondary uppercase tracking-wider text-sm">Co-Founder / COO (Part-time)</p>
+</div>
+<div class="w-[120px] h-[120px] rounded-xl overflow-hidden self-start">
+<img alt="GeoPik Technologies" class="w-full h-full object-contain" src="docs/images/geopik.png"/>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        Cebu, Philippines. Our goal is to make our country more location friendly by creating unique codes for each residence and business through innovative geocoding solutions.
+                    </p>
+</div>
+</div>
+</div>
+<!-- 2013 - 2019 -->
+<div class="flex flex-col md:flex-row-reverse items-center w-full group">
+<div class="hidden md:block w-1/2 pl-12 text-left">
+<span class="font-label-md text-label-md text-secondary bg-secondary-fixed px-4 py-1.5 rounded-full font-bold shadow-sm">2013 - 2019</span>
+</div>
+<div class="relative flex items-center justify-center z-10 my-4 md:my-0">
+<div class="w-10 h-10 rounded-full bg-secondary border-4 border-surface shadow-xl group-hover:bg-primary transition-all duration-300"></div>
+</div>
+<div class="w-full md:w-1/2 md:pr-12">
+<div class="experience-card p-8 rounded-2xl border border-primary/10 text-left md:text-right" style="background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);">
+<div class="flex flex-row md:flex-row-reverse justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">Greenwave Systems (Singapore)</h3>
+<p class="font-body-md text-body-md font-bold text-secondary uppercase tracking-wider text-sm">iOS App Developer</p>
+</div>
+<div class="w-[150px] h-[150px] rounded-xl overflow-hidden self-start">
+<img alt="Greenwave Systems" class="w-full h-full object-contain" src="docs/images/greenwave.png"/>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        Worked with Greenwave Systems based on Science Park II, Singapore, an IoT startup focused on building connected-device solutions through its AXON platform. As part of the iOS team, I helped develop mobile applications and frameworks that enabled communication with smart devices such as bulbs, sensors, and other connected products. Collaborated in adapting the platform for various client solutions while showcasing the capabilities of Greenwave's IoT ecosystem.
+                    </p>
+</div>
+</div>
+</div>
+<!-- 2011 - 2013 -->
+<div class="flex flex-col md:flex-row items-center w-full group">
+<div class="hidden md:block w-1/2 pr-12 text-right">
+<span class="font-label-md text-label-md text-primary bg-primary-fixed px-4 py-1.5 rounded-full font-bold shadow-sm">2011 - 2013</span>
+</div>
+<div class="relative flex items-center justify-center z-10 my-4 md:my-0">
+<div class="w-10 h-10 rounded-full bg-primary border-4 border-surface shadow-xl group-hover:bg-electric-purple transition-all duration-300"></div>
+</div>
+<div class="w-full md:w-1/2 md:pl-12">
+<div class="experience-card p-8 rounded-2xl border border-outline-variant/30" style="background: linear-gradient(135deg, #fff5f5 0%, #fee2e2 100%);">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">AIA Singapore</h3>
+<p class="font-body-md text-body-md font-bold text-secondary uppercase tracking-wider text-sm">Tech Lead / iOS Dev (Singapore)</p>
+</div>
+<div class="w-[120px] h-[120px] rounded-xl overflow-hidden self-start">
+<img alt="AIA Singapore" class="w-full h-full object-contain" src="docs/images/aia.png"/>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+Worked with AIA Singapore as an iOS Developer, contributing to the development of iPOS, one of the company's pioneering iPad applications that enabled insurance agents to generate quotations, assess customers, and manage digital policy submissions. The project played a significant role in modernizing insurance sales processes and received multiple recognitions, including Team of the Year and Project of the Year. In recognition of my contributions and technical leadership, I was later promoted to Tech Lead.
+                    </p>
+</div>
+</div>
+</div>
+<!-- 2008 - 2011 -->
+<div class="flex flex-col md:flex-row items-center w-full group">
+<div class="hidden md:block w-1/2 pr-12 text-right">
+<span class="font-label-md text-label-md text-primary bg-primary-fixed px-4 py-1.5 rounded-full font-bold shadow-sm">2008 - 2011</span>
+</div>
+<div class="relative flex items-center justify-center z-10 my-4 md:my-0">
+<div class="w-10 h-10 rounded-full bg-primary border-4 border-surface shadow-xl group-hover:bg-electric-purple transition-all duration-300"></div>
+</div>
+<div class="w-full md:w-1/2 md:pl-12">
+<div class="experience-card p-8 rounded-2xl border border-outline-variant/30" style="background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">Panasonic Singapore</h3>
+<p class="font-body-md text-body-md font-bold text-secondary uppercase tracking-wider text-sm">Asst. Senior Firmware Engineer / Mobile App Developer</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Bedok, Singapore</p>
+</div>
+<div class="w-[150px] h-[150px] rounded-xl overflow-hidden self-start">
+<img alt="Panasonic" class="w-full h-full object-contain" src="docs/images/panasonic.png"/>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+Together with teams of engineers, we we were developing the firmware's Home Theatre system. Proposed to reduce cost during the 2008 financial crisis of the system by getting the control UI panel and make an app to control it and was a success. Thus It was my first shift into Mobile Apps development and loved it.
+</p>
+</div>
+</div>
+</div>
+<!-- 2004 - 2008 -->
+<div class="flex flex-col md:flex-row-reverse items-center w-full group">
+<div class="hidden md:block w-1/2 pl-12 text-left">
+<span class="font-label-md text-label-md text-tertiary bg-tertiary-fixed px-4 py-1.5 rounded-full font-bold shadow-sm">2004 - 2008</span>
+</div>
+<div class="relative flex items-center justify-center z-10 my-4 md:my-0">
+<div class="w-10 h-10 rounded-full bg-secondary border-4 border-surface shadow-xl group-hover:bg-primary transition-all duration-300"></div>
+</div>
+<div class="w-full md:w-1/2 md:pr-12">
+<div class="experience-card p-8 rounded-2xl border border-tertiary/10 text-left md:text-right" style="background: linear-gradient(135deg, #fff5f5 0%, #fee2e2 100%);">
+<div class="flex flex-row md:flex-row-reverse justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">Lexmark R&amp;D</h3>
+<p class="font-body-md text-body-md font-bold text-tertiary uppercase tracking-wider text-sm">Firmware Engineer</p>
+</div>
+<div class="w-[120px] h-[120px] rounded-xl overflow-hidden self-start">
+<img alt="Lexmark" class="w-full h-full object-contain" src="docs/images/lexmark.png"/>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        Cebu, Philippines. Designed and developed laser printer firmware. Programmed chips in C for smart option trays, including 8 months of intensive training in Kentucky, USA.
+                    </p>
+</div>
+</div>
+</div>
+<!-- 2002 - 2004 -->
+<div class="flex flex-col md:flex-row items-center w-full group">
+<div class="hidden md:block w-1/2 pr-12 text-right">
+<span class="font-label-md text-label-md text-primary bg-primary-fixed px-4 py-1.5 rounded-full font-bold shadow-sm">2002 - 2004</span>
+</div>
+<div class="relative flex items-center justify-center z-10 my-4 md:my-0">
+<div class="w-10 h-10 rounded-full bg-primary border-4 border-surface shadow-xl group-hover:bg-electric-purple transition-all duration-300"></div>
+</div>
+<div class="w-full md:w-1/2 md:pl-12">
+<div class="experience-card p-8 rounded-2xl border border-outline-variant/30" style="background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);">
+<div class="flex justify-between items-start mb-4">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">Epson Precision</h3>
+<p class="font-body-md text-body-md font-bold text-secondary uppercase tracking-wider text-sm">Quality Assurance Engineer</p>
+</div>
+<div class="w-[120px] h-[120px] rounded-xl overflow-hidden self-start">
+<img alt="Epson" class="w-full h-full object-contain" src="docs/images/epson.png"/>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        Batangas, Philippines. First job. Led 15-20 inspectors ensuring inkjet printers manufactured were inspected to the highest global quality standards. Im able to develop leadership , communication , decision making at this stage.
+                    </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Education Section -->
+<section class="pb-16 px-margin-mobile md:px-gutter max-w-container-max mx-auto">
+<h2 class="font-headline-lg text-headline-lg text-primary font-bold text-center mb-10">Education</h2>
+<div class="flex flex-col items-center gap-6">
+<div class="experience-card p-8 rounded-2xl border border-primary/10 w-full max-w-2xl" style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);">
+<div class="flex items-start gap-4">
+<div class="w-[80px] h-[80px] rounded-xl overflow-hidden flex-shrink-0">
+<img alt="Education" class="w-full h-full object-contain" src="docs/images/education.png"/>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-1 font-medium">Bachelor of Science in Communications Engineering</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">with units in Masters in Information Technology</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Skills Section -->
+<section class="pb-16 px-margin-mobile md:px-gutter max-w-container-max mx-auto">
+<h2 class="font-headline-lg text-headline-lg text-primary font-bold text-center mb-8">Skills</h2>
+<div class="flex flex-wrap gap-2 justify-center max-w-4xl mx-auto">
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">Swift</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">SwiftUI</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">UIKit</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">Claude AI</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">GitHub Actions</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">MVC</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">MVVM</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">Git</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">Objective-C</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">Mapbox</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">Google Maps</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">Analytics</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">Alamofire</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">HTTP</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">XMPP</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">Canva</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">UX Design</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">Code Reviews</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">Sprints</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">Scrum</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">CocoaPods</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">XCTests</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">Storyboards</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">Xcode</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">Trello</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">Notifications</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">TestFlight / App Store Release</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">Bitrise</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">Project Management</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">SQL</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">RxSwift</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">Hero Animations</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">Chatto</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">Twilio</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">OKRs</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">ClickUp</span>
+<span class="text-xs text-on-surface-variant bg-primary/5 px-3 py-1 rounded-full">JIRA</span>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-primary/5 w-full py-24 border-t border-primary/10">
+<div class="flex justify-center items-center px-margin-mobile md:px-gutter max-w-container-max mx-auto gap-8">
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary font-medium transition-colors" href="mailto:ivanlacuesta@gmail.com">Email Ivan</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary font-medium transition-colors" href="https://www.linkedin.com/in/ivanlacuesta/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary font-medium transition-colors" href="https://github.com/ivanlacuesta" target="_blank" rel="noopener noreferrer">GitHub</a>
+</div>
+</footer>
+<script>
+    // Intersection Observer for reveal animations with a staggered effect
+    const observerOptions = {
+        threshold: 0.15,
+        rootMargin: "0px 0px -50px 0px"
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('opacity-100', 'translate-y-0');
+                entry.target.classList.remove('opacity-0', 'translate-y-12');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.experience-card').forEach((card, index) => {
+        card.classList.add('opacity-0', 'translate-y-12', 'transition-all', 'duration-1000', 'ease-out');
+        observer.observe(card);
+    });
+</script>
+</body></html>
