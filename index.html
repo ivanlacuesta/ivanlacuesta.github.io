@@ -137,7 +137,7 @@
         }
     </style>
 </head>
-<body class="bg-background text-on-surface font-body-md overflow-x-hidden">
+<body class="bg-background text-on-surface font-body-md">
 <!-- TopNavBar -->
 <nav class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-primary/5">
 <div class="flex justify-between items-center px-margin-mobile md:px-gutter py-4 max-w-container-max mx-auto">
@@ -390,25 +390,25 @@ Together with teams of engineers, we we were developing the firmware's Home Thea
 </div>
 </section>
 <!-- After Work Carousel -->
-<section class="pb-16 px-margin-mobile md:px-gutter max-w-container-max mx-auto">
+<section class="pb-16">
+<div class="px-margin-mobile md:px-gutter max-w-container-max mx-auto">
 <h2 class="font-headline-md text-headline-md text-primary font-bold text-center mb-6">Side Projects</h2>
-<div class="flex gap-4 overflow-x-auto pb-4" style="scrollbar-width: thin;">
+</div>
+<div style="display:flex;flex-direction:row;flex-wrap:nowrap;gap:16px;overflow-x:scroll;padding:0 24px 16px;-webkit-overflow-scrolling:touch;">
 <!-- GeoPik Card -->
-<div class="flex-shrink-0 w-72 rounded-2xl border border-outline-variant/30 p-5" style="background: linear-gradient(135deg, #fff5f5 0%, #fee2e2 100%);">
-<div class="flex justify-between items-start mb-3">
+<div style="flex:0 0 288px;min-width:288px;border-radius:16px;border:1px solid rgba(0,0,0,0.08);padding:20px;background:linear-gradient(135deg,#fff5f5 0%,#fee2e2 100%);">
+<div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;">
 <div>
 <span class="inline-block text-xs font-bold text-primary bg-primary-fixed px-2 py-0.5 rounded-full mb-1">2017 - PRESENT</span>
 <h3 class="text-sm font-semibold text-primary leading-tight">GeoPik Technologies</h3>
 <p class="text-xs font-bold text-secondary uppercase tracking-wider mt-0.5">Co-Founder / COO (Part-time)</p>
 </div>
-<div class="w-12 h-12 rounded-xl overflow-hidden self-start flex-shrink-0">
-<img alt="GeoPik Technologies" class="w-full h-full object-contain" src="docs/images/geopik.png"/>
-</div>
+<img alt="GeoPik Technologies" style="width:48px;height:48px;object-fit:contain;flex-shrink:0;border-radius:8px;" src="docs/images/geopik.png"/>
 </div>
 <p class="text-xs text-on-surface-variant leading-relaxed mb-3">Cebu, Philippines. Our goal is to make our country more location friendly by creating unique codes for each residence and business through innovative geocoding solutions.</p>
-<div class="text-left">
+<div>
 <p class="text-xs font-medium text-on-surface-variant mb-1">Articles about GeoPik:</p>
-<div class="flex flex-col gap-1">
+<div style="display:flex;flex-direction:column;gap:4px;">
 <a href="https://newsbytes.ph/2017/05/05/govt-betting-on-ph-startup-to-revolutionize-postal-system-2/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-xs text-primary font-medium hover:underline">
 <span class="material-symbols-outlined" style="font-size:14px">open_in_new</span>Govt betting on revolutionizing postal system
 </a>
@@ -417,6 +417,21 @@ Together with teams of engineers, we we were developing the firmware's Home Thea
 </a>
 </div>
 </div>
+</div>
+<!-- AppTradies Card -->
+<div style="flex:0 0 288px;min-width:288px;border-radius:16px;border:1px solid rgba(0,0,0,0.08);padding:20px;background:linear-gradient(135deg,#eff6ff 0%,#dbeafe 100%);">
+<div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;">
+<div>
+<span class="inline-block text-xs font-bold text-primary bg-primary-fixed px-2 py-0.5 rounded-full mb-1">2019 - 2021</span>
+<h3 class="text-sm font-semibold text-primary leading-tight">AppTradies</h3>
+<p class="text-xs font-bold text-secondary uppercase tracking-wider mt-0.5">Co-Founder · PH Operations</p>
+</div>
+<img alt="AppTradies" style="width:48px;height:48px;object-fit:contain;flex-shrink:0;border-radius:8px;" src="docs/images/apptradies.png"/>
+</div>
+<p class="text-xs text-on-surface-variant leading-relaxed mb-3">Co-founded AppTradies, a software consultancy focused on turning ideas into digital products for startups and businesses. Led product strategy and mobile development across client projects and helped launch Huwam, a micro-lending platform. The venture was later concluded as the founders moved on to other opportunities.</p>
+<a href="http://www.apptradies.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-xs text-primary font-medium hover:underline">
+<span class="material-symbols-outlined" style="font-size:14px">open_in_new</span>www.apptradies.com
+</a>
 </div>
 </div>
 </section>
